@@ -1,0 +1,8 @@
+numpy
+librosa
+scikit-learn
+pandas
+tk
+beautifulsoup4
+requests
+pydub
