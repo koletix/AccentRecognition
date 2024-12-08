@@ -45,17 +45,17 @@ This project uses machine learning to classify English accents from different Sp
 
 ## How to Run
 
-### Step 1: Collect Metadata
+1. Step 1: Collect Metadata
 Run `fromwebsite.py` to scrape metadata and create a CSV file.
 ```bash
-python fromwebsite.py bio_metadata.csv [language1] [language2] ...
+python fromwebsite.py bio_metadata.csv [language1] [language2] ... ```
 
 ### Step 2: Download and Convert Audio
 Run `getaudio.py` to scrape metadata and create a CSV file.
 ```bash
-python getaudio.py bio_metadata.csv
+python getaudio.py bio_metadata.csv ```
 
 ### Step 3: Train and Classify Accents
 Run `español.py` to train the model and classify new audio files via a GUI.
 ```bash
-python español.py
+python español.py ```
