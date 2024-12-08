@@ -123,7 +123,7 @@ def get_label_from_filename(filename):
         return None
 
 # Directory containing the audio files for training
-directory = r"C:\Users\kolet\Downloads\Intro to AI\prueba\Spanish"
+directory = r"C:\Users\kolet\Downloads\AccentRecognition\Spanish"
 
 # Load and normalize features
 features, labels = load_data(directory)
@@ -184,3 +184,6 @@ def gui_classify_audio():
 # Run the GUI
 if __name__ == "__main__":
     gui_classify_audio()
+
+
+
